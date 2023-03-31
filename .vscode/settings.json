@@ -1,0 +1,36 @@
+{
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#ff8c33",
+    "activityBar.background": "#ff8c33",
+    "activityBar.foreground": "#15202b",
+    "activityBar.inactiveForeground": "#15202b99",
+    "activityBarBadge.background": "#bfffdb",
+    "activityBarBadge.foreground": "#15202b",
+    "commandCenter.border": "#15202b99",
+    "sash.hoverBorder": "#ff8c33",
+    "statusBar.background": "#ff6f00",
+    "statusBar.foreground": "#15202b",
+    "statusBarItem.hoverBackground": "#cc5900",
+    "statusBarItem.remoteBackground": "#ff6f00",
+    "statusBarItem.remoteForeground": "#15202b",
+    "titleBar.activeBackground": "#ff6f00",
+    "titleBar.activeForeground": "#15202b",
+    "titleBar.inactiveBackground": "#ff6f0099",
+    "titleBar.inactiveForeground": "#15202b99"
+  },
+  "peacock.color": "#ff6f00",
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "isort.args": ["--profile", "black"],
+  "python.linting.mypyEnabled": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.organizeImports": true
+  }
+}
