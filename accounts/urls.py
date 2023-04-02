@@ -5,7 +5,7 @@ from .api import GetUserAPI, LoginAPI, RegisterAPI, UpdateProfileAPI, UserAPI, i
 
 urlpatterns = [
     path("auth", include("knox.urls")),
-    path("auth/register", RegisterAPI.as_view()),
+    path("auth/register/", RegisterAPI.as_view()),
     path("auth/login/", LoginAPI.as_view()),
     path("auth/user", UserAPI.as_view()),
     path("auth/is_used", is_used),
